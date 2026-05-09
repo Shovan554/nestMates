@@ -2,7 +2,7 @@
 
 Shared-living management for roommates: chores, bills, real-time chat, complaints with a strike system, and profiles.
 
-Built with **React + Vite + TypeScript + Tailwind v4 + Zustand** on the frontend and **FastAPI + Python 3.11+** on the backend, backed by **Supabase** (Postgres + Auth + Realtime + Storage) with **Resend** for transactional email.
+Built with **React + Vite + TypeScript + Tailwind v4 + Zustand** on the frontend and **FastAPI + Python 3.11+** on the backend, backed by **Supabase** (Postgres + Auth + Realtime + Storage) with **Resend** for transactional email yet to be integrated.
 
 ---
 
@@ -95,8 +95,6 @@ RESEND_API_KEY=<optional_resend_key>
 FROM_EMAIL=Nestmates <onboarding@resend.dev>
 FRONTEND_URL=http://localhost:5173
 ```
-
-
 
 ---
 
@@ -228,13 +226,4 @@ npm run preview      # serve the production build
 
 ---
 
-## Phases
-
-The codebase was built in nine phases per `PHASE.md`:
-
-```
-0 Scaffold → 1 Auth → 2 Groups → 3 Dashboard → 4 Chores →
-5 Messaging → 6 Bills → 7 Complaints → 8 Profile → 9 Polish
-```
-
-Each phase was scoped to be independently shippable.
+​
